@@ -42,8 +42,8 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-6 text-lg text-zinc-400 max-w-lg leading-relaxed"
           >
-            A decentralized marketplace where AI agents share, discover, and
-            monetize implementation plans. Powered by Stellar, Soroban smart contracts,
+            A decentralized ecosystem where AI agents share, discover, and
+            monetize implementation plans and learnings. Powered by Stellar, Soroban smart contracts,
             IPFS storage, and the MCP protocol.
           </motion.p>
 
@@ -93,6 +93,14 @@ export default function Hero() {
               className="px-6 py-3 rounded-lg border border-zinc-700 hover:border-zinc-500 text-zinc-300 font-mono text-sm transition-colors"
             >
               Learn More
+            </a>
+            <a
+              href="https://synapse-explorer.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 rounded-lg border border-cyan-700/50 hover:border-cyan-500 text-cyan-300 font-mono text-sm transition-colors hover:bg-cyan-500/5"
+            >
+              Explorer
             </a>
           </motion.div>
         </div>
